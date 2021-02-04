@@ -1,0 +1,55 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "Is anyone there?","Hey","Hola","heyy", "Hello", "Good day"],
+         "responses": ["Hello, how are you?", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye",  "Till next time","take care","bye","okay bye"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Nice chatting to you, bye","Thank you for your time"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","Okay","Noted"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","You're welcome!","Hope I was of any help","Any other queries?"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "How are you",
+         "patterns": ["How are you?", "How are you doing?", "What you upto" ],
+         "responses": ["Im doing good, How about you?","I'm great, how can I help you","Couldnt be better"],
+         "context": [""]
+        },
+        {"tag": "Im good",
+         "patterns": ["Im good", "Im doing good too", "Im great", "Im doing great", "Couldnt be better" ],
+         "responses": ["Thats good to hear. How can I help you?"],
+         "context": [""]
+        },
+    
+        {"tag": "not good",
+         "patterns": ["Im not good", "Im not doing good", "just going on", "Couldnt be worse" ],
+         "responses": ["How can I help you?","What can I do for you?"],
+         "context": [""]
+        },
+        {"tag": "help",
+         "patterns": ["how can you help me?", "what can you do?", "How can you guide me?","I was wondering if","Who are you?" ],
+         "responses": ["I'm a chatbot. I intend to improve my replies with time."],
+         "context": [""]
+        },
+        {"tag": "Nevermind",
+         "patterns": ["Nevermind", "Leave it","sure","I will","Im good" ],
+         "responses": ["Okay"],
+         "context": [""]  
+        },
+        {"tag": "Contact",
+         "patterns": ["How can I contact you?", "Give me your phone number","Give me you email address","Contact details","E-mail address" ],
+         "responses": ["You can contact me on charmishah1030@gmail.com."],
+         "context": [""]  
+        }
+    
+   ]
+}

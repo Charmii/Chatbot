@@ -163,10 +163,10 @@ driver.get('https://www.facebook.com/')
 
 
 username = driver.find_element_by_id('email')
-username.send_keys('charmishah1030@gmail.com')
+username.send_keys('#your Email')
 
 password = driver.find_element_by_id('pass')
-password.send_keys('cos0=111')
+password.send_keys('#your password')
 
 log_in_button = driver.find_element_by_id('u_0_b')
 log_in_button.click()
